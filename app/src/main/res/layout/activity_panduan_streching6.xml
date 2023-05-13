@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white"
+    tools:context=".Panduan.PanduanStreching2_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mainmarginn"
+            app:cardCornerRadius="@dimen/mainmarginn"
+            app:cardBackgroundColor="@color/colorpurple">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Gerakan Posisi Berdiri"
+                android:paddingTop="3dp"
+                android:fontFamily="@font/futurabold"
+                android:paddingBottom="3dp"
+                android:paddingLeft="@dimen/mainmarginn"
+                android:paddingRight="@dimen/mainmarginn"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mainmarginn"
+            app:cardCornerRadius="@dimen/mainmarginn"
+            android:layout_marginLeft="@dimen/mainmarginn"
+            android:layout_marginRight="@dimen/mainmarginn"
+            app:strokeColor="@color/colorpurple"
+            app:cardBackgroundColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Kepalkan kedua tangan, lalu tekuk
+ke atas (lakukan sebanyak 4 kali) "
+                android:padding="@dimen/mainmarginn"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/mainmarginn"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/mainmarginn"
+            android:layout_marginLeft="@dimen/mainmarginn"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ps6_content1"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="@dimen/mainmarginn"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/mainmarginn"
+            android:layout_marginLeft="@dimen/mainmarginn"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ps6_content2"/>
+        </RelativeLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mainmarginn"
+            app:cardCornerRadius="@dimen/mainmarginn"
+            android:layout_marginLeft="@dimen/mainmarginn"
+            android:layout_marginRight="@dimen/mainmarginn"
+            app:strokeColor="@color/colorpurple"
+            app:cardBackgroundColor="@color/white"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="
+Kedua tangan diletakkan di pinggang,
+angkat kedua tumit sampai posisi jinjit lalu turunkan
+ke posisi semula (lakukan sebanyak 4 kali) "
+                android:padding="@dimen/mainmarginn"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/mainmarginn"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/mainmarginn"
+            android:layout_marginLeft="@dimen/mainmarginn"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ps6_content3"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="@dimen/mainmarginn"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/mainmarginn"
+            android:layout_marginLeft="@dimen/mainmarginn"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ps6_content4"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="40dp"
+                app:cardCornerRadius="@dimen/mainmarginn"
+                app:cardBackgroundColor="@color/colorpurple">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/ps6_bt_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:background="@null"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/logo_strechfit"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Panduan.PanduanStrechingVideo_Activity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardCornerRadius="@dimen/mainmarginn"
+        app:cardBackgroundColor="@color/colorpurple"
+        android:layout_margin="@dimen/mainmarginn">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video Streching"
+                android:fontFamily="@font/futurabold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="30dp"/>
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="oq71_Sw1R8U"
+        app:autoPlay="true"
+        app:handleNetworkEvents="true"
+        app:enableAutomaticInitialization="true"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="40dp"
+                app:cardCornerRadius="@dimen/mainmarginn"
+                app:cardBackgroundColor="@color/colorpurple">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pv_bt_selesai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selesai"
+                    android:background="@null"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

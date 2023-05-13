@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_depan"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/newlogo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Strechfit"
+                android:fontFamily="@font/futurabold"
+                android:textSize="50dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/futurabold"
+                android:textSize="50dp"
+                android:text="Apps"
+                android:textAlignment="center"/>
+            <RelativeLayout
+                android:layout_marginTop="@dimen/mainmarginn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_marginLeft="@dimen/mainmarginn"
+                    android:layout_marginRight="@dimen/mainmarginn"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="60dp"
+                    app:cardBackgroundColor="@color/colorgrey"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/signin_et_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingRight="70dp"
+                        android:paddingLeft="70dp"
+                        android:hint="Username"
+                        android:fontFamily="@font/futurabold"
+                        android:textColor="@color/white"
+                        android:background="@null"
+                        android:textAlignment="center"/>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="@dimen/mainmarginn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <androidx.cardview.widget.CardView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:paddingLeft="40dp"
+                app:cardCornerRadius="60dp"
+                app:cardBackgroundColor="@color/colortosca"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/signin_bt_masuk"
+                    android:fontFamily="@font/futurabold"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="70dp"
+                    android:textSize="25dp"
+                    android:textAllCaps="false"
+                    android:text="Masuk"
+                    android:textColor="@color/white"
+                    android:background="@null"
+                    android:textAlignment="center"/>
+            </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
